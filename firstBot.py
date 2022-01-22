@@ -1,14 +1,13 @@
-import discord >>memuat Library dictionary discord atau memuat program2 yang ada di dc
+import discord >> memuat Library dictionary discord atau memuat program2 yang ada di dc
 
 Client = discord.Client() >> sebagai variable bot
 
-@Client.event >>> syntax yang ada di python, gunanya untuk menunjuk bot.
+@Client.event
 
 async def on_ready(): 
     print('Sukses login sebagai {0.user}'.format(Client))
     
-///Line 7 adalah syntax python, yaitu api discord akan membaca api server dari discord, jika sukses maka cetak
-sukses login sebagai bot pada Line 7
+///Line 7 menyatakan login bot sukses login dari api discord,
 
 @Client.event
 async def on_message(message):
@@ -38,6 +37,6 @@ Client.run('///variable token bot\\\')
  
  ////fungsi await.message.channel.send adalah sebagai text timbal balik dari bot\\\\
  
- ////Client.Run adalah penunjuk bot yang akan digunakan, dan memakai format yang ada di bot tersebut.\\\
+ Client.Run('YOUR TOKEN')
+ // Cek pada bagian discord develpoment portal, cek pada bagian reavel token, lalu copas \\\
  
- kunci dari script ini adalah pada token bot. jika token bot tidak ada, maka output tidak berjalan.
