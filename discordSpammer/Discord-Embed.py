@@ -2,14 +2,14 @@ import discord
 from discord.ext import commands
 import random 
 
-TOKEN  = "OTM0Mzc1MjI3NjU0MzAzNzc1.YevKvg.oOGBaDGC4lIjBfWjozDPt4xjquQ"
-PREFIX = '!'
+TOKEN  = "TokenBotLo"
+PREFIX = '!' #perintahUntukCommands, jika tidak ada ini, program selanjutnya akan eror
 bot    = commands.Bot(command_prefix=PREFIX)
 
 @bot.event
 async def on_ready():
     print('Logged on as', bot.user)
-    channel = bot.get_channel(930832207998779544)
+    channel = bot.get_channel(tokenCHannel) #Copy channel in your own server
     await channel.send("Gue onlen nich")
 
 @bot.command() 
@@ -20,4 +20,4 @@ async def hello(ctx):
     embedVar.add_field(name="Favourie Food", value="Any of sweety food and drinks, hot spicy food, much more.", inline=False)
     await ctx.send(embed=embedVar)
 
-bot.run('OTM0Mzc1MjI3NjU0MzAzNzc1.YevKvg.oOGBaDGC4lIjBfWjozDPt4xjquQ')
+bot.run('TokenBotLo')
