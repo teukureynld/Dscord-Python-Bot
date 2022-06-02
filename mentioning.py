@@ -13,5 +13,5 @@ async def test(ctx, user_935879312194801744):  # renamed id to user_id to make i
   user = bot.get_user(user_935879312194801744)
   print(user)
 
-TOKEN = "OTM0Mzc1MjI3NjU0MzAzNzc1.YevKvg.f37YJ-VNvzd1gKNPW6au8D9T2oo"
-bot.run('OTM0Mzc1MjI3NjU0MzAzNzc1.YevKvg.f37YJ-VNvzd1gKNPW6au8D9T2oo')
+TOKEN = ("Your_Token_Bot")
+bot.run("Your_Token_Bot")

@@ -17,7 +17,7 @@ async def on_message(message):
         await message.channel.send(f"<@{user_id}> is the best")
 
     
-Client.run('OTM0Mzc1MjI3NjU0MzAzNzc1.YevKvg.f37YJ-VNvzd1gKNPW6au8D9T2oo')
+Client.run("Your_Token_Bot")
 
         
 
