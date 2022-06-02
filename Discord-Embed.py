@@ -9,7 +9,7 @@ bot    = commands.Bot(command_prefix=PREFIX)
 @bot.event
 async def on_ready():
     print('Logged on as', bot.user)
-    channel = bot.get_channel(930832207998779544)
+    channel = bot.get_channel("CHannel_ID_Lu")
     await channel.send("Gue onlen nich")
 
 @bot.command() 
@@ -21,4 +21,4 @@ async def hello(ctx):
     await ctx.send(embed=embedVar)
 
 
-bot.run('OTM0Mzc1MjI3NjU0MzAzNzc1.YevKvg.f37YJ-VNvzd1gKNPW6au8D9T2oo')
+bot.run('Your_Token_Bot')
