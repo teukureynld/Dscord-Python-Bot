@@ -12,5 +12,5 @@ async def on_message(message):
                 await message.channel.send('Hallo my Owner!',)
      
 
-Client.run('OTM0Mzc1MjI3NjU0MzAzNzc1.YevKvg.f37YJ-VNvzd1gKNPW6au8D9T2oo')
+Client.run('TOKEN')
 

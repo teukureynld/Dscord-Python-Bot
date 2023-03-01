@@ -2,8 +2,8 @@ import discord
 from discord.ext import commands
 import asyncio
 
-TOKEN  = "OTM0Mzc1MjI3NjU0MzAzNzc1.YevKvg.oOGBaDGC4lIjBfWjozDPt4xjquQ"
-PREFIX = '!'
+TOKEN  = ""
+PREFIX = ''
 bot    = commands.Bot(command_prefix=PREFIX)
 
 @bot.event
